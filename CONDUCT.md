@@ -1,12 +1,9 @@
 ## Cobra User Contract
 
 ### Versioning
-Cobra will follow a steady release cadence. Non breaking changes will be released as minor versions quarterly. Patch bug releases are at the discretion of the maintainers. Users can expect security patch fixes to be released within relatively short order of a CVE becoming known. For more information on security patch fixes see the CVE section below. Releases will follow [Semantic Versioning](https://semver.org/). Users tracking the Master branch should expect unp continues to move forward. For stability release.
+Cobra will follow a steady release cadence. Non breaking changes will be released as minor versions quarterly. Patch bug releases are at the discretion of the maintainers. Users can expect security patch fixes to be released within relatively short order of a CVE becoming known. For more information on security patch fixes see the CVE section below. Releases will follow [Semantic Versioning](https://semver.org/). release.
 
-### Backward Compatibility
-We will maintain two major releases in a moving window. The://gophers.slack.com/archives/CD3LP1199
-### CVE
-M the discretion of the maintai be a lower priority than a high severity use GitHub issues and the [#cobra slack channel](https://gophers.slack.com/archives/CD3LP1199) as the primary means is to foster open communication with all users and contributors.
+### Backward be a lower priority than a high severity.slack.com/archives/CD3LP1199) as the primary means is to foster open communication with all users and contributors.
 
 ### Breaking Changes
 Breaking changes are generally allowed in the master branch, as this is the branch used to develop the next release of Cobra.
@@ -33,3 +30,5 @@ Changes to this document and the contents therein are at the discretion of the m
 > **TODO:** The Backward Compatibility section also appears truncated/garbled — the full text should describe which two major releases are maintained and link to the slack channel properly.
 >
 > **Study note (2024-01-15):** Reading through the Breaking Changes section — key takeaway is that release branches are treated as stable and breaking changes there require explicit maintainer sign-off. Good pattern to follow in my own projects.
+>
+> **Study note (2024-02-03):** The two-major-releases compatibility window is a useful policy. For my own CLIs I should decide early whether I want to commit to something similar or keep it informal while the project is small.
