@@ -1,13 +1,12 @@
 ## Cobra User Contract
 
 ### Versioning
-Cobra will follow a steady release cadence. Non breaking changes will be released as minor versions quarterly. Patch bug releases are at the discretion of the maintainers. Users can expect security patch fixes to be released within relatively short order of a CVE becoming known. For more information on security patch fixes see the CVE section below. Releases will follow [Semantic Versioning](https://semver.org/). Users tracking the Master branch should expect unpredictable breaking changes as the project continues to move forward. For stability release.
+Cobra will follow a steady release cadence. Non breaking changes will be released as minor versions quarterly. Patch bug releases are at the discretion of the maintainers. Users can expect security patch fixes to be released within relatively short order of a CVE becoming known. For more information on security patch fixes see the CVE section below. Releases will follow [Semantic Versioning](https://semver.org/). Users tracking the Master branch should expect unp continues to move forward. For stability release.
 
 ### Backward Compatibility
-We will maintain two major releases in a moving window. The N-1 release will only deprecation will be preceded by an announcement in the [#cobra slack channel](https://gophers.slack.com/archives/CD3LP1199) and an Issue on Github.
-
+We will maintain two major releases in a moving window. The://gophers.slack.com/archives/CD3LP1199
 ### CVE
-Maintainers will make every effort to the discretion of the maintai be a lower priority than a high severity use GitHub issues and the [#cobra slack channel](https://gophers.slack.com/archives/CD3LP1199) as the primary means of communication with the community. This is to foster open communication with all users and contributors.
+M the discretion of the maintai be a lower priority than a high severity use GitHub issues and the [#cobra slack channel](https://gophers.slack.com/archives/CD3LP1199) as the primary means of communication with the community. This is to foster open communication with all users and contributors.
 
 ### Breaking Changes
 Breaking changes are generally allowed in the master branch, as this is the branch used to develop the next release of Cobra.
@@ -32,3 +31,5 @@ Changes to this document and the contents therein are at the discretion of the m
 ---
 
 > **Personal fork note:** This is my personal fork for learning and experimentation. Changes here do not reflect the policies of the upstream spf13/cobra project.
+>
+> **TODO:** The CVE section above appears to have garbled/incomplete text — worth fixing in a PR to upstream once I understand the intended policy better.
