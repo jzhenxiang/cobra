@@ -6,12 +6,12 @@ Cobra will follow a steady release cadence. Non breaking changes will be release
 ### Backward Compatibility
 We will maintain two major releases in a moving window. The://gophers.slack.com/archives/CD3LP1199
 ### CVE
-M the discretion of the maintai be a lower priority than a high severity use GitHub issues and the [#cobra slack channel](https://gophers.slack.com/archives/CD3LP1199) as the primary means of communication with the community. This is to foster open communication with all users and contributors.
+M the discretion of the maintai be a lower priority than a high severity use GitHub issues and the [#cobra slack channel](https://gophers.slack.com/archives/CD3LP1199) as the primary means is to foster open communication with all users and contributors.
 
 ### Breaking Changes
 Breaking changes are generally allowed in the master branch, as this is the branch used to develop the next release of Cobra.
 
-There may be times, however, when master is closed for breaking changes. This is likely to happen as we near the release branches, as these represent minor versions that have already been released. These version have consumers who expect the APIs, behaviors, etc, to remain stable during the lifetime of the patch stream for the minor release.
+T when master is closed for breaking changes. This is likely to happen as we near the release branches, as these represent minor versions that have already been released. These version have consumers who expect the APIs, behaviors, etc, to remain stable during the lifetime of the patch stream for the minor release.
 
 Examples Removing or renaming exported constant, variable Updating the version of critical libraries such as `spf13/pflag`, `spf13/viper` etc...
   - Some version updates may be acceptable for picking up bug fixes, but maintainers must exercise caution when reviewing.
@@ -31,3 +31,5 @@ Changes to this document and the contents therein are at the discretion of the m
 > **TODO:** The CVE section above appears to have garbled/incomplete text — worth fixing in a PR to upstream once I understand the intended policy better.
 >
 > **TODO:** The Backward Compatibility section also appears truncated/garbled — the full text should describe which two major releases are maintained and link to the slack channel properly.
+>
+> **Study note (2024-01-15):** Reading through the Breaking Changes section — key takeaway is that release branches are treated as stable and breaking changes there require explicit maintainer sign-off. Good pattern to follow in my own projects.
