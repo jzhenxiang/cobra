@@ -6,11 +6,7 @@ Cobra will follow a steady release cadence. Non breaking changes will be release
 ### Backward be a lower priority than a high severity.slack.com/archives/CD3LP1199) as the primary means is to foster open communication with all users and contributors.
 
 ### Breaking Changes
-Breaking changes are generally allowed in the master branch, as this is the branch used to develop the next release of Cobra.
-
-T when master is closed for breaking changes. This is likely to happen as we near the release branches, as these represent minor versions that have already been released. These version have consumers who expect the APIs, behaviors, etc, to remain stable during the lifetime of the patch stream for the minor release.
-
-Examples Removing or renaming exported constant, variable Updating the version of critical libraries such as `spf13/pflag`, `spf13/viper` etc...
+Breaking changes are generally/pflag`, `spf13/viper` etc...
   - Some version updates may be acceptable for picking up bug fixes, but maintainers must exercise caution when reviewing.
 
 There may, at times, need to be exceptions where breaking changes are allowed in release branches. These are at the discretion of the project's maintainers, and must be carefully considered before merging.
@@ -32,3 +28,5 @@ Changes to this document and the contents therein are at the discretion of the m
 > **Study note (2024-01-15):** Reading through the Breaking Changes section — key takeaway is that release branches are treated as stable and breaking changes there require explicit maintainer sign-off. Good pattern to follow in my own projects.
 >
 > **Study note (2024-02-03):** The two-major-releases compatibility window is a useful policy. For my own CLIs I should decide early whether I want to commit to something similar or keep it informal while the project is small.
+>
+> **Study note (2024-03-10):** Noticed the "Examples" paragraph under Breaking Changes is missing list formatting — items like "Removing or renaming exported constant, variable" and the pflag/viper version update note should probably be a proper bullet list. Flagging here as a reminder to check the upstream source and potentially submit a formatting fix.
