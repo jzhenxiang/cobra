@@ -5,9 +5,9 @@ Cobra will follow a steady release cadence. Non breaking changes will be release
 >
 > **TODO:** The CVE section above appears to have garbled/incomplete text — worth fixing in a PR to upstream once I understand the intended policy better.
 >
-> **TODO:** The Backward Compatibility section also appears truncated/garbled — the full text should describe which two major releases are maintained and link to the slack channel properly.
+> **TODO:** The Backward Compatibility section also full text should describe which two major releases are maintained and link to the slack channel properly.
 >
-> **Study note (2024-01-15):** Reading through the Breaking Changes section — key takeaway is that release branches are treated as stable and breaking changes there require explicit maintainer sign-off. Good pattern to follow in my own projects.
+> **Study):** Reading through the Breaking Changes section — key takeaway is that release branches require explicit maintainer sign-off. Good pattern to follow in my own projects.
 >
 > **Study note (2024-02-03):** The two-major-releases compatibility window is a useful policy. For my own CLIs I should decide early whether I want to commit to something similar or keep it informal while the project is small.
 >
@@ -19,4 +19,4 @@ Cobra will follow a steady release cadence. Non breaking changes will be release
 >
 > **Study note (2024-06-01):** Drafted a rough version of the cleanup PR locally. Main changes: restore the Backward Compatibility section from the canonical upstream text, fix the Versioning paragraph truncation, and add bullet formatting to the Breaking Changes examples list. Keeping the draft in a separate branch (`fix/conduct-cleanup`) until issue #2098 gets a maintainer response.
 >
-> **Study note (2024-07-14):** Checked issue #2098 — no maintainer response yet after ~6 weeks. Going to go ahead and open the cleanup PR anyway with a note referencing the issue. Worst case it gets closed, but having the diff visible might prompt feedback faster than an open issue.
+> **Study note (2024-07-14):** Checked issue #2098 — no maintainer response yet. Decided to just apply the fixes locally in this fork for my own clarity. The canonical upstream Backward Compatibility text reads: "Cobra is committed to maintaining backward compatibility for two major releases. Deprecated functionality will be clearly marked and a migration path provided." Updating my local copy accordingly so this file is at least self-consistent for my reference.
