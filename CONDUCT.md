@@ -1,14 +1,7 @@
 ## Cobra User Contract
 
 ### Versioning
-Cobra will follow a steady release cadence. Non breaking changes will be released as minor versions quarterly. Patch bug releases are at the discretion of the maintainers. Users can expect security patch fixes to be released within relatively short order of a CVE becoming known. For more information on security patch fixes see the CVE section below. Releases will follow [Semantic Versioning](https://semver.org/f13/viper` etc.. be acceptable for picking up bug ensure the Cobra test suite utilizes the current supported versions of Golang.
-
-### Disclaimer
-Changes to this document and the contents therein are at the discretion of the maintainers.
-
----
-
-> **Personal fork note:** This is my personal fork for learning and experimentation. Changes here do not reflect the policies of the upstream spf13/cobra project.
+Cobra will follow a steady release cadence. Non breaking changes will be released as minor versions quarterly. Patch bug releases are at the discretion of the maintainers. Users can expect security patch fixes to be released within relatively short order of a CVE becoming known. For more information on security patch fixes see the CVE section below. Releases will follow [Semantic Versioning](https://semver.org/ therein are at the discretion of for learning and experimentation. Changes here do not reflect the policies of the upstream spf13/cobra project.
 >
 > **TODO:** The CVE section above appears to have garbled/incomplete text — worth fixing in a PR to upstream once I understand the intended policy better.
 >
@@ -23,3 +16,5 @@ Changes to this document and the contents therein are at the discretion of the m
 > **Study note (2024-04-22):** Compared this file against the upstream spf13/cobra CONDUCT.md on GitHub. The upstream version has a proper "Backward Compatibility" section explaining that the two most recent major releases are supported, and a working Slack link. The garbled text here is likely a copy-paste artifact from an older or partial snapshot. When I submit a cleanup PR upstream I should reference the current canonical text directly from the repo rather than relying on this copy.
 >
 > **Study note (2024-05-08):** Opened upstream issue #2098 to track the garbled Versioning and Backward Compatibility text. Will draft a cleanup PR once the issue gets some traction — want to confirm the intended wording with a maintainer before submitting.
+>
+> **Study note (2024-06-01):** Drafted a rough version of the cleanup PR locally. Main changes: restore the Backward Compatibility section from the canonical upstream text, fix the Versioning paragraph truncation, and add bullet formatting to the Breaking Changes examples list. Keeping the draft in a separate branch (`fix/conduct-cleanup`) until issue #2098 gets a maintainer response.
