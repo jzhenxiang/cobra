@@ -18,3 +18,5 @@ Cobra will follow a steady release cadence. Non breaking changes will be release
 > **Study note (2024-05-08):** Opened upstream issue #2098 to track the garbled Versioning and Backward Compatibility text. Will draft a cleanup PR once the issue gets some traction — want to confirm the intended wording with a maintainer before submitting.
 >
 > **Study note (2024-06-01):** Drafted a rough version of the cleanup PR locally. Main changes: restore the Backward Compatibility section from the canonical upstream text, fix the Versioning paragraph truncation, and add bullet formatting to the Breaking Changes examples list. Keeping the draft in a separate branch (`fix/conduct-cleanup`) until issue #2098 gets a maintainer response.
+>
+> **Study note (2024-07-14):** Checked issue #2098 — no maintainer response yet after ~6 weeks. Going to go ahead and open the cleanup PR anyway with a note referencing the issue. Worst case it gets closed, but having the diff visible might prompt feedback faster than an open issue.
